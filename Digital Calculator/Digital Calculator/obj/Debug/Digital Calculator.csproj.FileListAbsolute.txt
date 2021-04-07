@@ -1,0 +1,6 @@
+C:\Users\hello\source\repos\Digital Calculator\Digital Calculator\bin\Debug\Digital Calculator.exe.config
+C:\Users\hello\source\repos\Digital Calculator\Digital Calculator\bin\Debug\Digital Calculator.exe
+C:\Users\hello\source\repos\Digital Calculator\Digital Calculator\bin\Debug\Digital Calculator.pdb
+C:\Users\hello\source\repos\Digital Calculator\Digital Calculator\obj\Debug\Digital Calculator.csprojAssemblyReference.cache
+C:\Users\hello\source\repos\Digital Calculator\Digital Calculator\obj\Debug\Digital Calculator.exe
+C:\Users\hello\source\repos\Digital Calculator\Digital Calculator\obj\Debug\Digital Calculator.pdb
