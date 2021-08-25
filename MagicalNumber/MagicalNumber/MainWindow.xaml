@@ -1,0 +1,45 @@
+﻿<Window x:Class="MagicalNumber.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="768" Width="1024">
+    <Grid >
+        <Label VerticalAlignment="Top" Width="500" Height="80" FontSize="50" Content="Magic Square 3*3"/>
+        <Label VerticalAlignment="Top" Width="500" Height="40" FontSize="20" Content="Find the total of 15." Margin="0,75,0,0"/>
+        <Grid ShowGridLines="False" Height="500" Width="500">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+       
+            <!--Borders-->
+            <Border Width="165" Height="165" BorderBrush="Black" BorderThickness="1" Grid.Column="0" Grid.Row="0"/>
+            <Border Width="165" Height="165" BorderBrush="Black" BorderThickness="1" Grid.Column="1" Grid.Row="0"/>
+            <Border Width="165" Height="165" BorderBrush="Black" BorderThickness="1" Grid.Column="2" Grid.Row="0"/>
+            <Border Width="165" Height="165" BorderBrush="Black" BorderThickness="1" Grid.Column="0" Grid.Row="1"/>
+            <Border Width="165" Height="165" BorderBrush="Black" BorderThickness="1" Grid.Column="1" Grid.Row="1"/>
+            <Border Width="165" Height="165" BorderBrush="Black" BorderThickness="1" Grid.Column="2" Grid.Row="1"/>
+            <Border Width="165" Height="165" BorderBrush="Black" BorderThickness="1" Grid.Column="0" Grid.Row="2"/>
+            <Border Width="165" Height="165" BorderBrush="Black" BorderThickness="1" Grid.Column="1" Grid.Row="2"/>
+            <Border Width="165" Height="165" BorderBrush="Black" BorderThickness="1" Grid.Column="2" Grid.Row="2"/>
+            <!--TextBox-->
+            <TextBox x:Name="Position1" Grid.Column="0" Grid.Row="0" MouseEnter="Position1_MouseEnter_1" MouseLeave="Position1_MouseLeave_1" Width="162" TextAlignment="Center" Height="162" FontSize="90" TextChanged="Position1_TextChanged_1" />
+            <TextBox x:Name="Position2" Grid.Column="1" Grid.Row="0" MouseEnter="Position2_MouseEnter_1" MouseLeave="Position2_MouseLeave_1" Width="162" TextAlignment="Center" Height="162" FontSize="90" TextChanged="Position2_TextChanged_1" />
+            <TextBox x:Name="Position3" Grid.Column="2" Grid.Row="0" MouseEnter="Position3_MouseEnter_1" MouseLeave="Position3_MouseLeave_1" Width="162" TextAlignment="Center" Height="162" FontSize="90" TextChanged="Position3_TextChanged" />
+            <TextBox x:Name="Position4" Grid.Column="0" Grid.Row="1" MouseEnter="Position4_MouseEnter_1" MouseLeave="Position4_MouseLeave_1" Width="162" TextAlignment="Center" Height="162" FontSize="90" TextChanged="Position4_TextChanged" />
+            <TextBox x:Name="Position5" Grid.Column="1" Grid.Row="1" MouseEnter="Position5_MouseEnter_1" MouseLeave="Position5_MouseLeave_1" Width="162" TextAlignment="Center" Height="162" FontSize="90" TextChanged="Position5_TextChanged" />
+            <TextBox x:Name="Position6" Grid.Column="2" Grid.Row="1" MouseEnter="Position6_MouseEnter_1" MouseLeave="Position6_MouseLeave_1" Width="162" TextAlignment="Center" Height="162" FontSize="90" TextChanged="Position6_TextChanged" />
+            <TextBox x:Name="Position7" Grid.Column="0" Grid.Row="2" MouseEnter="Position7_MouseEnter_1" MouseLeave="Position7_MouseLeave_1" Width="162" TextAlignment="Center" Height="162" FontSize="90" TextChanged="Position7_TextChanged" />
+            <TextBox x:Name="Position8" Grid.Column="1" Grid.Row="2" MouseEnter="Position8_MouseEnter_1" MouseLeave="Position8_MouseLeave_1" Width="162" TextAlignment="Center" Height="162" FontSize="90" TextChanged="Position8_TextChanged" />
+            <TextBox x:Name="Position9" Grid.Column="2" Grid.Row="2" MouseEnter="Position9_MouseEnter_1" MouseLeave="Position9_MouseLeave_1" Width="162" TextAlignment="Center" Height="162" FontSize="90" TextChanged="Position9_TextChanged" />
+        </Grid>
+        <Button x:Name="Submission" Width="150" Height="50" Background="Yellow" VerticalAlignment="Bottom" Margin="0,0,0,30" Content="Submit" HorizontalAlignment="Center" FontSize="30" Click="Submission_Click">   
+        </Button>
+        <Button Width="80" Height="30" HorizontalAlignment="Left" VerticalAlignment="Bottom" Content="Reset" Click="Button_Click_1" Margin="20,0,0,30"/>
+    </Grid>
+</Window>
