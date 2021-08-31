@@ -5,7 +5,7 @@
 * Your text is converted into a voice to listen .
 * You also give a Text file to listen.
 
-## here the screenshot
+## Here the screenshot
 ![ScreenShot](https://github.com/SanthoshGandhi/Mini-Projects/blob/master/TextToSpeech/Image/TextToSpeech.PNG)
 
 * The textbox getting the input of yours and then click the speech text button you listen the text.
