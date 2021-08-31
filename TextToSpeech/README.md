@@ -6,4 +6,4 @@
 * You also give a Text file to listen.
 
 ## here the screenshot
-![ScreenShot](Image\Text To Speech.png)
+![ScreenShot](https://github.com/SanthoshGandhi/Mini-Projects/blob/master/TextToSpeech/Image/TextToSpeech.PNG)
