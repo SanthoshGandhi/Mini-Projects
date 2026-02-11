@@ -213,11 +213,11 @@ namespace DriveSync
             if (File.Exists(zipPath))
             {
                 Directory.EnumerateFiles(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "\\BackupFiles\\", "*.7z").ToList().ForEach(x => File.Delete(x));
-                ZipFile.CreateFromDirectory(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "\\BackupFiles\\MicroFinanceBackup", zipPath);
+                ZipFile.CreateFromDirectory(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "\\BackupFiles\\Backupfoldername", zipPath);
             }
             else
             {
-                ZipFile.CreateFromDirectory(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "\\BackupFiles\\MicroFinanceBackup", zipPath);
+                ZipFile.CreateFromDirectory(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "\\BackupFiles\\Backupfoldername", zipPath);
             }
         }
 

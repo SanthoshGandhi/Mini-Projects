@@ -11,8 +11,8 @@ namespace DriveSync
     {
         static void Main(string[] args)
         {
-            string SourcePath = @"G:\My Drive\MicroFinance";
-            string LocalPath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "\\BackupFiles\\MicroFinanceBackup\\MicroFinance";
+            string SourcePath = @"Folder name";
+            string LocalPath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "\\BackupFiles\\Backupfoldername";
             Console.WriteLine("Processing");
             Sync sync = new Sync(SourcePath, LocalPath);
             Console.ReadKey();
